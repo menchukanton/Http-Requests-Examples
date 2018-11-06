@@ -6,7 +6,10 @@ import org.apache.http.client.methods.RequestBuilder;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.BasicResponseHandler;
 import org.apache.http.impl.client.HttpClients;
-
+/**
+ * Created by A.Menchuk
+ * 11/06/2018
+ */
 public class Requests {
 
     private HttpClient client = HttpClients.custom().build();

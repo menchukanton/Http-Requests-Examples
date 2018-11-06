@@ -1,11 +1,11 @@
 import com.jayway.jsonpath.JsonPath;
-
 import java.io.IOException;
 
+/**
+ * Created by A.Menchuk
+ * 11/06/2018
+ */
 public class RequestExecutor {
-
-
-
     public static void main(String[] args) throws IOException {
         String domain = "https://noName.testrail.io";
 
